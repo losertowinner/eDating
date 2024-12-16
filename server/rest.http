@@ -6,3 +6,12 @@ Content-Type: application/json
     "email": "zin.it.dev@gmail.com",
     "password": 123
 }
+
+###
+POST http://localhost:5000/auth/token HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "zin.it.dev@gmail.com",
+    "password": 123
+}
